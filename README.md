@@ -1,15 +1,18 @@
 
 # AI in Finance
 
+[![Awesome lists](https://awesome.re/badge.svg)](https://awesome.re)
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-A curated lists of __Machine Learning in Finance__ that contains _financial data sets_, _research papers_, _use cases_, _programming frameworks_ and so on.
+A curated lists of __AI in Finance__ that contains _programming frameworks_ and so on.
 
-![AI in Finance](media/ai-in-finance.large.png)
+A curated list of insanely awesome  *financial data sets*, *research papers*, *use cases*, *libraries*, *frameworks* and resources for **AI in Finance**.
 
-[Large image](media/ai-in-finance.large.png)
 
-## Curated Lists
+[![AI in Finance](media/ai-in-finance.large.png)](media/ai-in-finance.large.png)
+
+## Lists by Sectors
 
 Table contains _curated lists_ grouped by sector:
 
