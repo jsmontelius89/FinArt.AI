@@ -47,7 +47,7 @@ List of datasets and service APIs with __Financial Markets__ data.
 | Partnerships & ecosystem relations          | Project metadata        | Raw        | Low     | -                   |
 | Competitors list                            | Competitor & market positioning | Raw  | Low     | -                   |
 | Market share (by market cap, volume, user base) | Competitor & market positioning | Derived | Medium | -                   |
-| Sector/category classification (defi, NFT, layer-1, etc.) | Competitor & market positioning | Raw | Low | +                   |
+| Sector/category classification (defi, NFT, layer-1, etc.) | Competitor & market positioning | Raw | Low | + |
 
 ---
 
@@ -137,4 +137,45 @@ Technical date (based on raw market data):
 - Other tech indicators
 
 
+---
+## Datasets
+
+| Dataset / Source | Groups | Source type | Description |
+|-------------------|--------|--------------|-------------|
+| [U.S. Securities and Exchange Commission](https://www.sec.gov/edgar/searchedgar/companysearch.html) | Fundamental data > Project metadata; Financial sentiment | Government | Public filings database for US companies      |
+| [Norges Bank Investment Management](https://www.nbim.no/en/the-fund/investments/#/) | Fundamental data > Project metadata | Institutional | Sovereign wealth fund investment data         |
+| Kaggle: [New York Stock Exchange](https://www.kaggle.com/dgawlik/nyse) | Market data > Price and volume data | Community | US stock exchange end-of-day prices            |
+| Nasdaq: [Core US Fundamentals Data](https://data.nasdaq.com/databases/SF1/data) | Fundamental data > Valuation metrics; Fundamental data > Project metadata | Institutional | US company fundamental and financial data      |
+| Kaggle: [U.S. stocks and ETFs](https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs) | Market data > Price and volume data | Community | Price and volume data for US stocks and ETFs  |
+| Kaggle: [S&P 500 stock data](https://www.kaggle.com/camnugent/sandp500) | Market data > Price and volume data; Fundamental data > Competitor & market positioning | Community | S&P 500 daily stock prices                      |
+| [DataHub Economic Data](https://datahub.io/collections/economic-data) | Macroeconomic > Indicators; Alternative & supplementary data | Aggregator | Collection of global economic data feeds       |
+| [World Bank Open Data](https://data.worldbank.org/) | Macroeconomic > Indicators | Government | Global socioeconomic and development data      |
+| [Cybersyn](https://www.cybersyn.com/economic-financial/?product_id=1547) | Macroeconomic > Indicators | Commercial | Economic and financial datasets                 |
+| [Individual household electric power consumption](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption) | Macroeconomic > Indicators | Research dataset | Household electric power consumption data      |
+| [NASA NEX](https://registry.opendata.aws/nasanex/) | Macroeconomic > Indicators | Government | NASA climate and earth science data             |
+| [Global Ship Tracking Intelligence](https://www.marinetraffic.com/en/ais/home/centerx:152.9/centery:30.1/zoom:2) | Alternative & supplementary data; Macroeconomic > Market pressure indicators                                            | Commercial          | Real-time global ship tracking data             |
+| [Sanctions & export controls](https://sanctionsnews.bakermckenzie.com/resources/)                            | Alternative & supplementary data; Macroeconomic > Market pressure indicators                                            | Commercial          | Sanction and export control information         |
+| [DB Nomics](https://db.nomics.world/) ([R package](https://macro.cepremap.fr/article/2019-10/rdbnomics-tutorial/)) | Macroeconomic > Indicators; Alternative & supplementary data                                                | Aggregator  | Aggregated official economic time series        |
+| [Data.Gov](https://www.data.gov/)                                                                           | Macroeconomic > Indicators; Alternative & supplementary data | Government          | US government open data portal                   |
+| [Commodity Futures Trading Commission](https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm)     | Market data > Derivatives markets; Market data > Exchange activity data; Macroeconomic > Market pressure indicators      | Government          | US commodity futures market reports             |
+| [Binance Public Data](https://data.binance.vision/)                                                         | Market data > Market microstructure; Market data > Derivatives markets                                                    | Exchange| Binance public historic crypto market data      |
+| Kaggle: [Binance Full History](https://www.kaggle.com/jorijnsmit/binance-full-history)                              | Market data > Price and volume data | Community | Binance crypto price and volume full history    |
+| [Binance Bitcoin Futures Price](https://www.kaggle.com/billqi/binance-bitcoin-futures-price-10s-intervals)   | Market data > Derivatives markets; Market data > Market microstructure                                                                     | Community | Binance Bitcoin futures price at 10s intervals  |
+| Kaggle: [Binance real time trades BTCUSDT ETHUSDT](https://www.kaggle.com/rossr61938/binance-real-time-trades-btcusdt-ethusdt) | Market data > Market microstructure                                                                                        | Community | Binance real-time crypto trade data              |
+| Kaggle: [Optiver Realized Volatility Prediction](https://www.kaggle.com/c/optiver-realized-volatility-prediction/data) | Market data > Market microstructure                                                                                                       | Community  | Order book market microstructure data            |
+| Kaggle: [Elliptic Data Set](https://www.kaggle.com/ellipticco/elliptic-data-set)                                    | On-chain data; Alternative & supplementary data | Community | Bitcoin transaction data for fraud detection     |
+| Kaggle: [Bitcoin Blockchain Historical Data](https://www.kaggle.com/bigquery/bitcoin-blockchain) | | Community | Bitcoin blockchain historic data                  |
+| [Public Blockchain Datasets in BigQuery](https://github.com/blockchain-etl/public-datasets) |  | Community | Crypto blockchain data BigQuery public datasets  |
+| Kaggle: [Ethereum Blockchain](https://www.kaggle.com/bigquery/ethereum-blockchain) |  | Community | Ethereum blockchain historic data                 |
+| Kaggle: [Bitcoin Historical Data](https://www.kaggle.com/mczielinski/bitcoin-historical-data)                        | Market data > Price and volume data                                                                                       | Community | Bitcoin price and volume historic data            |
+| Kaggle: [Complete Historical Cryptocurrency Financial Data](https://www.kaggle.com/philmohun/cryptocurrency-financial-data) | Market data > Price and volume data                                                                                                       |  Community| Comprehensive crypto price and volume data        |
+| Kaggle: [400+ crypto currency pairs at 1-minute resolution](https://www.kaggle.com/tencars/392-crypto-currency-pairs-at-minute-resolution) | Market data > Price and volume data                                                                                                       | Community | Crypto pairs 1-minute resolution price data       |
+| Kaggle: [Currency Foreign Exchange Rates](https://www.kaggle.com/datasets/dhruvildave/currency-exchange-rates)       | Market data > Price and volume data; Macroeconomic > Indicators                                            | Community  | Foreign exchange rates per US dollar              |
+|  [CBOE](http://cfe.cboe.com/market-data/)                                                                    | Market data > Derivatives markets; Market data > Price and volume data                                                                     | Exchange       | CBOE futures and volatility index data            |
+| Kaggle: [Reddit /r/cryptocurrency](https://www.kaggle.com/nickreinerink/reddit-rcryptocurrency)                      |   Financial sentiment                                                                                           | Community       | Reddit cryptocurrency community sentiment         |
+| Kaggle: [Two Sigma Dataset](https://www.kaggle.com/c/two-sigma-financial-news/data)                                  |   Financial sentiment                                                                                           | Community | Financial news sentiment dataset                   |
+| Kaggle: [Bitcoin Tweets](https://www.kaggle.com/kaushiksuresh147/bitcoin-tweets)                                    |   Financial sentiment                                                                                           | Community       | Bitcoin-related tweets and sentiment               |
+| Kaggle: [Bitcoin Tweets - 16M tweets](https://www.kaggle.com/alaix14/bitcoin-tweets-20160101-to-20190329)            |   Financial sentiment                                                                                           | Community       | Bitcoin tweets with sentiment scores               |
+| [Quora: publicly available market data](https://www.quora.com/What-are-some-publicly-available-market-data-feeds) | Alternative & supplementary data                                                                                                         | Community  | Community-curated list of market data sources      |
+| Kaggle: [Hacker News Datasets](https://www.kaggle.com/search?q=Hacker+News+in%3Adatasets)                            | Alternative & supplementary data                                                                                                         | Community  | Archive of Hacker News post datasets                |
 ---
