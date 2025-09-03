@@ -16,7 +16,7 @@ List for Quantitative analysis and Trading.
   - [Taxonomy](markets/taxonomy.md#datasets-taxonomy)
   - [Datasets](markets/datasets.md#datasets)
 - [Service & APIs](markets/datasets.md#service-apis)
-- :page_facing_up: [Research papers](markets/research-papers.md)
+- :page_facing_up: [Research papers](markets/research_papers.md)
 - :fire: [Frameworks](markets/frameworks.md)
 - [Courses](markets/courses.md)
 
