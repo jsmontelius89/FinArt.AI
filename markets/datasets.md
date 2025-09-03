@@ -33,7 +33,7 @@ _List of datasets and service APIs with __Financial Markets__ data._
 | [Data.Gov](https://www.data.gov/) | Macroeconomic > Indicators; Alternative & supplementary data | Government | US government open data portal |
 | [Commodity Futures Trading Commission](https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm) | Market data > Derivatives markets; Market data > Exchange activity data; Macroeconomic > Market pressure indicators | Government | US commodity futures market reports |
 | [Binance Public Data](https://data.binance.vision/) | Market data > Market microstructure; Market data > Derivatives markets | Exchange | Binance public historic crypto market data |
-| [Public Blockchain Datasets in BigQuery](https://github.com/blockchain-etl/public-datasets) |  | Community | Crypto blockchain data BigQuery public datasets |
+| [Public Blockchain Datasets in BigQuery](https://github.com/blockchain-etl/public-datasets) | On-chain data | Community | Crypto blockchain data BigQuery public datasets |
 | [CBOE](http://cfe.cboe.com/market-data/) | Market data > Derivatives markets; Market data > Price and volume data | Exchange | CBOE futures and volatility index data |
 | [Quora: publicly available market data](https://www.quora.com/What-are-some-publicly-available-market-data-feeds) | Alternative & supplementary data | Community | Community-curated list of market data sources |
 
