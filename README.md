@@ -1,28 +1,33 @@
 
 # AI in Finance
 
-[![Awesome lists](https://awesome.re/badge.svg)](https://awesome.re)
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-A curated lists of __AI in Finance__ that contains _programming frameworks_ and so on.
+![Awesome lists](https://awesome.re/badge.svg)
 
 A curated list of insanely awesome  *financial data sets*, *research papers*, *use cases*, *libraries*, *frameworks* and resources for **AI in Finance**.
 
-
 [![AI in Finance](media/ai-in-finance.large.png)](media/ai-in-finance.large.png)
 
-## Lists by Sectors
 
-Table contains _curated lists_ grouped by sector:
+## ML for Financial Markets
 
-| Sector | Datasets | Service & APIs | Use cases | Research papers | Frameworks | Community Activities (deprecated) |
-| -- | -- | -- | -- | -- | -- | -- |
-| ML in __Banking__ | [:white_check_mark:](banking/datasets.md) | | [:white_check_mark:](banking/cases.md) | | | [Hackatons](hackathons.md), [Conferences](banking/conferences.md) |
-| ML in __Financial Markets__ | [:white_check_mark:](markets/datasets.md#datasets) | [:white_check_mark:](markets/datasets.md#service-apis) | | [:white_check_mark:](markets/research_papers.md) | [:white_check_mark:](markets/frameworks.md) |  [Hackatons](hackathons.md), [Online cources](markets/courses.md) |
-|  ML cases in __Insurance__ | | | [:white_check_mark:](insurance/cases.md) | | | |
+List for Quantitative analysis and Trading.
 
-## Hubs Lists
+- :star: **Datasets**
+  - [Taxonomy](markets/taxonomy.md#datasets-taxonomy)
+  - [Datasets](markets/datasets.md#datasets)
+- [Service & APIs](markets/datasets.md#service-apis)
+- :page_facing_up: [Research papers](markets/research-papers.md)
+- :fire: [Frameworks](markets/frameworks.md)
+- [Courses](markets/courses.md)
+
+## Lists by other Sectors
+
+| Sector | Datasets | Service & APIs | Use cases | Research papers | Community Activities (deprecated) |
+| -- | -- | -- | -- | -- | -- |
+| ML in __Retail Banking__ | [:white_check_mark:](banking/datasets.md) | [:white_check_mark:](banking/cases.md) | | | [Hackatons](hackathons.md), [Conferences](banking/conferences.md) |
+|  ML cases in __Insurance__ | | | [:white_check_mark:](insurance/cases.md) | | |
+
+## Hubs
 
 - [Algorithms, Models, Research papers Hubs](hubs.md#algorithms-models-research-papers-hubs)
 - [Data Hubs](hubs.md#data-hubs)
