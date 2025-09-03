@@ -11,7 +11,8 @@ Hub category:
 ## Algorithms, Models, Research papers Hubs
 
 - [arxiv.org](https://arxiv.org/)
-  - [AI list](https://arxiv.org/list/cs.AI/recent)
+  - [AI: recent papers](https://arxiv.org/list/cs.AI/recent)
+  - [Trading and Market microstructure: recent papers](https://arxiv.org/list/q-fin.TR/recent)
 - [PapersWithCode](https://www.paperswithcode.com/)
 - [Semantic Scholar](https://www.semanticscholar.org/)
 - [CiteSeerX](https://citeseerx.ist.psu.edu/)

@@ -21,17 +21,24 @@ _List of programming frameworks, libraries, and web services that have rich impl
 
 Packages:
 
-- [PortfolioLab](https://hudson-and-thames-portfoliolab.readthedocs-hosted.com/en/latest/)
+- [QuantStats](https://github.com/ranaroussi/quantstats): financial metrics calculation (active)
+- [PortfolioLab](https://hudson-and-thames-portfoliolab.readthedocs-hosted.com/en/latest/)  (archived)
 - [DeepDow](https://deepdow.readthedocs.io/en/latest/#)
 - [PyPortfolioOpt](https://pyportfolioopt.readthedocs.io/en/latest/)
-- [Quantopian Pyfolio](https://github.com/quantopian/pyfolio)
+- [Quantopian Pyfolio](https://github.com/quantopian/pyfolio) (archived)
 - [SciPy](https://towardsdatascience.com/portfolio-optimization-with-scipy-aa9c02e6b937) `#core`
-- [ZipLine](https://github.com/quantopian/zipline)
+- [ZipLine reloaded](https://github.com/stefan-jansen/zipline-reloaded): `#backtesting` and `#trading`
 - [Riskfolio Lib](https://riskfolio-lib.readthedocs.io/en/latest/)
 - [Empyrial](https://empyrial.gitbook.io/empyrial/)
 - [Okama](https://okama.readthedocs.io/en/master/index.html)
 - [Qlib](https://github.com/microsoft/qlib)
 - [FinQuant](https://github.com/fmilthaler/FinQuant)
+- [Optopsy](https://github.com/michaelchu/optopsy): `#backtesting` and statistics library for option strategies (archived)
+- [VectorBT](https://vectorbt.pro/features/overview/): `#backtesting` and technical indicators
+- [FinanceDatabase](https://github.com/JerBouma/FinanceDatabase): 300K+ symbols with Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Forex `#market-data`
+- [Trading Strategy](https://github.com/tradingstrategy-ai/trading-strategy/): DeFi prices loader `#market-data` `#DeFi`
+- [datamule-python](https://github.com/john-friedman/datamule-python): SEC data via datamule endpoints `#fundamentials` `#SEC`
+- [CCXT (CryptoCurrency eXchange Trading Library)](https://github.com/ccxt/ccxt?tab=readme-ov-file#python): integration and trading with CEXs `#market-data` `#CeFi`
 
 Repositories:
 
