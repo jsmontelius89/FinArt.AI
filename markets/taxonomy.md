@@ -1,8 +1,21 @@
-# Datasets and APIs
+# Taxonomies
 
-List of datasets and service APIs with __Financial Markets__ data.
+List of taxonomies:
 
-## Taxonomy
+- [Datasets taxonomy](#datasets-taxonomy)
+  - [Overview](#overview)
+  - [Fundamental data](#fundamental-data)
+  - [Market data](#market-data)
+  - [On-chain data (blockchain derived)](#on-chain-data-blockchain-derived)
+  - [Financial sentiment data](#financial-sentiment-data)
+  - [Macroeconomic \& network context](#macroeconomic--network-context)
+  - [Alternative \& supplementary data](#alternative--supplementary-data)
+- [Technical indicators taxonomy](#technical-indicators-taxonomy)
+
+
+## Datasets taxonomy
+
+### Overview
 
 1. **Fundamental Data**
     - Valuation metrics
@@ -24,7 +37,7 @@ List of datasets and service APIs with __Financial Markets__ data.
 6. **Alternative & Supplementary Data**
 
 
-## Fundamental data
+### Fundamental data
 
 | Indicator/Metric                             | Group                   | Data Level | Frequency of changes    | Blockchain-specific |
 |---------------------------------------------|-------------------------|------------|-------------------|---------------------|
@@ -49,9 +62,8 @@ List of datasets and service APIs with __Financial Markets__ data.
 | Market share (by market cap, volume, user base) | Competitor & market positioning | Derived | Medium | -                   |
 | Sector/category classification (defi, NFT, layer-1, etc.) | Competitor & market positioning | Raw | Low | + |
 
----
 
-## Market data
+### Market data
 
 | Indicator/Metric                             | Group                   | Data Level | Rate of Change   | Blockchain-specific |
 |---------------------------------------------|-------------------------|------------|------------------|---------------------|
@@ -71,9 +83,7 @@ List of datasets and service APIs with __Financial Markets__ data.
 | Exchange order books (aggregate snapshots)  | Exchange activity data  | Raw        | Medium | -                   |
 | Exchange market share & liquidity distribution | Exchange activity data | Derived    | Medium | -                   |
 
----
-
-## On-chain data (blockchain derived)
+### On-chain data (blockchain derived)
 
 | Indicator/Metric                             | Group                   | Data Level | Rate of Change   | Blockchain-specific |
 |---------------------------------------------|-------------------------|------------|------------------|---------------------|
@@ -85,10 +95,8 @@ List of datasets and service APIs with __Financial Markets__ data.
 | Token transfers and contract interactions   | On-chain data           | Raw        | Medium | +                   |
 | Smart contract events logs                   | On-chain data           | Raw        | Medium | +                   |
 
----
 
-
-## Financial sentiment data
+### Financial sentiment data
 
 | Indicator/Metric                             | Group                   | Data Level | Rate of Change   | Blockchain-specific |
 |---------------------------------------------|-------------------------|------------|------------------|---------------------|
@@ -98,9 +106,8 @@ List of datasets and service APIs with __Financial Markets__ data.
 | Influencer analytics: top voices impact measurement | Financial sentiment data | Derived | Medium | -                   |
 | Sentiment event correlations to price/volatility | Financial sentiment data | Derived | Medium | -                   |
 
----
 
-## Macroeconomic & network context
+### Macroeconomic & network context
 
 | Indicator/Metric                             | Group                   | Data Level | Rate of Change   | Blockchain-specific |
 |---------------------------------------------|-------------------------|------------|------------------|---------------------|
@@ -116,9 +123,8 @@ List of datasets and service APIs with __Financial Markets__ data.
 | Stablecoin supply & flows                    | Market pressure indicators | Raw/Derived | Medium | +                   |
 | Institutional wallet activity                | Market pressure indicators | Derived    | Medium | +                   |
 
----
 
-## Alternative & supplementary data
+### Alternative & supplementary data
 
 | Indicator/Metric                             | Group                   | Data Level | Rate of Change   | Blockchain-specific |
 |---------------------------------------------|-------------------------|------------|------------------|---------------------|
@@ -126,56 +132,32 @@ List of datasets and service APIs with __Financial Markets__ data.
 | Search & trend data: Google trends, Twitter trends | Alternative & supplementary data | Derived    | Medium | -                   |
 | Protocol usage metrics: TVL (total value locked), active users in defi protocols | Alternative & supplementary data | Derived | Medium | +                   |
 
+## Technical indicators taxonomy
 
-----
+- **Trend-Following Indicators**
+  - *Moving Averages (SMA, EMA, WMA):* Averages prices over time to signal trend direction; EMA weights recent prices more. [Investopedia](https://www.investopedia.com/terms/m/movingaverage.asp)
+  - *Parabolic SAR:* Indicates potential trend reversals with stop and reverse points based on price and time. [Investopedia](https://www.investopedia.com/terms/p/parabolicindicator.asp)
+  - *Average Directional Index (ADX):* Measures trend strength regardless of direction. [Investopedia](https://www.investopedia.com/terms/a/adx.asp)
+  - *Moving Average Convergence Divergence (MACD):* Combines moving averages to show trend direction and momentum. [Investopedia](https://www.investopedia.com/terms/m/macd.asp)
 
-Technical date (based on raw market data):
-- Mean reversion
-- Volatility
-- Momentum
-- Liquidity
-- Other tech indicators
+- **Momentum Indicators**
+  - *Relative Strength Index (RSI):* Quantifies overbought or oversold conditions on a 0-100 scale. [Investopedia](https://www.investopedia.com/terms/r/rsi.asp)
+  - *Stochastic Oscillator:* Compares closing price to price range over a period to indicate momentum. [Investopedia](https://www.investopedia.com/terms/s/stochasticoscillator.asp)
+  - *Rate of Change (ROC):* Measures percentage price change over a time period. [Investopedia](https://www.investopedia.com/terms/r/roc.asp)
+  - *MACD:* Used also as a momentum oscillator showing the relationship between two moving averages.
 
+- **Volume Indicators**
+  - *On-Balance Volume (OBV):* Cumulative volume adding or subtracting based on price movement direction. [Investopedia](https://www.investopedia.com/terms/o/onbalancevolume.asp)
+  - *Chaikin Money Flow (CMF):* Combines price and volume to show buying/selling pressure. [Investopedia](https://www.investopedia.com/terms/c/chaikinmoneyflow.asp)
+  - *Volume Rate of Change:* Percentage change in volume across a defined period. [Fidelity PDF](https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/learning-center/Understanding-Indicators-TA.pdf)
+  - *Money Flow Index (MFI):* Volume-weighted RSI indicating money inflow or outflow. [Investopedia](https://www.investopedia.com/terms/m/mfi.asp)
 
----
-## Datasets
+- **Volatility Indicators**
+  - *Bollinger Bands:* Bands set at standard deviations above/below a moving average to signal volatility. [Investopedia](https://www.investopedia.com/terms/b/bollingerbands.asp)
+  - *Average True Range (ATR):* Measures average price range over time to indicate volatility. [Investopedia](https://www.investopedia.com/terms/a/atr.asp)
+  - *Keltner Channels:* Volatility-based envelopes above and below an exponential moving average. [Investopedia](https://www.investopedia.com/terms/k/keltnerchannels.asp)
+  - *Donchian Channels:* High and low price boundaries over a period used to detect breakouts. [Investopedia](https://www.investopedia.com/terms/d/donchianchannels.asp)
 
-| Dataset / Source | Groups | Source type | Description |
-|-------------------|--------|--------------|-------------|
-| [U.S. Securities and Exchange Commission](https://www.sec.gov/edgar/searchedgar/companysearch.html) | Fundamental data > Project metadata; Financial sentiment | Government | Public filings database for US companies      |
-| [Norges Bank Investment Management](https://www.nbim.no/en/the-fund/investments/#/) | Fundamental data > Project metadata | Institutional | Sovereign wealth fund investment data         |
-| Kaggle: [New York Stock Exchange](https://www.kaggle.com/dgawlik/nyse) | Market data > Price and volume data | Community | US stock exchange end-of-day prices            |
-| Nasdaq: [Core US Fundamentals Data](https://data.nasdaq.com/databases/SF1/data) | Fundamental data > Valuation metrics; Fundamental data > Project metadata | Institutional | US company fundamental and financial data      |
-| Kaggle: [U.S. stocks and ETFs](https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs) | Market data > Price and volume data | Community | Price and volume data for US stocks and ETFs  |
-| Kaggle: [S&P 500 stock data](https://www.kaggle.com/camnugent/sandp500) | Market data > Price and volume data; Fundamental data > Competitor & market positioning | Community | S&P 500 daily stock prices                      |
-| [DataHub Economic Data](https://datahub.io/collections/economic-data) | Macroeconomic > Indicators; Alternative & supplementary data | Aggregator | Collection of global economic data feeds       |
-| [World Bank Open Data](https://data.worldbank.org/) | Macroeconomic > Indicators | Government | Global socioeconomic and development data      |
-| [Cybersyn](https://www.cybersyn.com/economic-financial/?product_id=1547) | Macroeconomic > Indicators | Commercial | Economic and financial datasets                 |
-| [Individual household electric power consumption](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption) | Macroeconomic > Indicators | Research dataset | Household electric power consumption data      |
-| [NASA NEX](https://registry.opendata.aws/nasanex/) | Macroeconomic > Indicators | Government | NASA climate and earth science data             |
-| [Global Ship Tracking Intelligence](https://www.marinetraffic.com/en/ais/home/centerx:152.9/centery:30.1/zoom:2) | Alternative & supplementary data; Macroeconomic > Market pressure indicators                                            | Commercial          | Real-time global ship tracking data             |
-| [Sanctions & export controls](https://sanctionsnews.bakermckenzie.com/resources/)                            | Alternative & supplementary data; Macroeconomic > Market pressure indicators                                            | Commercial          | Sanction and export control information         |
-| [DB Nomics](https://db.nomics.world/) ([R package](https://macro.cepremap.fr/article/2019-10/rdbnomics-tutorial/)) | Macroeconomic > Indicators; Alternative & supplementary data                                                | Aggregator  | Aggregated official economic time series        |
-| [Data.Gov](https://www.data.gov/)                                                                           | Macroeconomic > Indicators; Alternative & supplementary data | Government          | US government open data portal                   |
-| [Commodity Futures Trading Commission](https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm)     | Market data > Derivatives markets; Market data > Exchange activity data; Macroeconomic > Market pressure indicators      | Government          | US commodity futures market reports             |
-| [Binance Public Data](https://data.binance.vision/)                                                         | Market data > Market microstructure; Market data > Derivatives markets                                                    | Exchange| Binance public historic crypto market data      |
-| Kaggle: [Binance Full History](https://www.kaggle.com/jorijnsmit/binance-full-history)                              | Market data > Price and volume data | Community | Binance crypto price and volume full history    |
-| [Binance Bitcoin Futures Price](https://www.kaggle.com/billqi/binance-bitcoin-futures-price-10s-intervals)   | Market data > Derivatives markets; Market data > Market microstructure                                                                     | Community | Binance Bitcoin futures price at 10s intervals  |
-| Kaggle: [Binance real time trades BTCUSDT ETHUSDT](https://www.kaggle.com/rossr61938/binance-real-time-trades-btcusdt-ethusdt) | Market data > Market microstructure                                                                                        | Community | Binance real-time crypto trade data              |
-| Kaggle: [Optiver Realized Volatility Prediction](https://www.kaggle.com/c/optiver-realized-volatility-prediction/data) | Market data > Market microstructure                                                                                                       | Community  | Order book market microstructure data            |
-| Kaggle: [Elliptic Data Set](https://www.kaggle.com/ellipticco/elliptic-data-set)                                    | On-chain data; Alternative & supplementary data | Community | Bitcoin transaction data for fraud detection     |
-| Kaggle: [Bitcoin Blockchain Historical Data](https://www.kaggle.com/bigquery/bitcoin-blockchain) | | Community | Bitcoin blockchain historic data                  |
-| [Public Blockchain Datasets in BigQuery](https://github.com/blockchain-etl/public-datasets) |  | Community | Crypto blockchain data BigQuery public datasets  |
-| Kaggle: [Ethereum Blockchain](https://www.kaggle.com/bigquery/ethereum-blockchain) |  | Community | Ethereum blockchain historic data                 |
-| Kaggle: [Bitcoin Historical Data](https://www.kaggle.com/mczielinski/bitcoin-historical-data)                        | Market data > Price and volume data                                                                                       | Community | Bitcoin price and volume historic data            |
-| Kaggle: [Complete Historical Cryptocurrency Financial Data](https://www.kaggle.com/philmohun/cryptocurrency-financial-data) | Market data > Price and volume data                                                                                                       |  Community| Comprehensive crypto price and volume data        |
-| Kaggle: [400+ crypto currency pairs at 1-minute resolution](https://www.kaggle.com/tencars/392-crypto-currency-pairs-at-minute-resolution) | Market data > Price and volume data                                                                                                       | Community | Crypto pairs 1-minute resolution price data       |
-| Kaggle: [Currency Foreign Exchange Rates](https://www.kaggle.com/datasets/dhruvildave/currency-exchange-rates)       | Market data > Price and volume data; Macroeconomic > Indicators                                            | Community  | Foreign exchange rates per US dollar              |
-|  [CBOE](http://cfe.cboe.com/market-data/)                                                                    | Market data > Derivatives markets; Market data > Price and volume data                                                                     | Exchange       | CBOE futures and volatility index data            |
-| Kaggle: [Reddit /r/cryptocurrency](https://www.kaggle.com/nickreinerink/reddit-rcryptocurrency)                      |   Financial sentiment                                                                                           | Community       | Reddit cryptocurrency community sentiment         |
-| Kaggle: [Two Sigma Dataset](https://www.kaggle.com/c/two-sigma-financial-news/data)                                  |   Financial sentiment                                                                                           | Community | Financial news sentiment dataset                   |
-| Kaggle: [Bitcoin Tweets](https://www.kaggle.com/kaushiksuresh147/bitcoin-tweets)                                    |   Financial sentiment                                                                                           | Community       | Bitcoin-related tweets and sentiment               |
-| Kaggle: [Bitcoin Tweets - 16M tweets](https://www.kaggle.com/alaix14/bitcoin-tweets-20160101-to-20190329)            |   Financial sentiment                                                                                           | Community       | Bitcoin tweets with sentiment scores               |
-| [Quora: publicly available market data](https://www.quora.com/What-are-some-publicly-available-market-data-feeds) | Alternative & supplementary data                                                                                                         | Community  | Community-curated list of market data sources      |
-| Kaggle: [Hacker News Datasets](https://www.kaggle.com/search?q=Hacker+News+in%3Adatasets)                            | Alternative & supplementary data                                                                                                         | Community  | Archive of Hacker News post datasets                |
----
+- **Breadth Indicators**
+  - *Advance-Decline Line:* Cumulative difference between advancing and declining stocks in a market/index. [Investopedia](https://www.investopedia.com/terms/a/advancedeclineline.asp)
+  - *McClellan Oscillator:* Measures momentum of advance-decline data to gauge market breadth. [Investopedia](https://www.investopedia.com/terms/m/mcclellanoscillator.asp)

@@ -2,9 +2,7 @@
 
 _List of datasets and service APIs with __Financial Markets__ data._
 
-- [Taxonomy](#taxonomy)
 - [Datasets](#datasets)
-- [Open Data](#open-data)
 - [Service APIs](#service-apis)
   - [Explorers](#explorers)
   - [Transactions and Smart contracts decoders](#transactions-and-smart-contracts-decoders)
@@ -14,96 +12,53 @@ _List of datasets and service APIs with __Financial Markets__ data._
   - [Fundraising](#fundraising)
   - [LLMs](#llms)
 
-## Taxonomy
-
-- Market data
-  - Global identifiers
-    - Currency ISO codes
-    - FIGI
-    - Sectors
-  - Spot
-    - LOB (levels)
-    - OHLCVs
-    - Trades
-  - Derivatives
-    - Open interest
-    - Fear/greed index
-- Financial analysis
-  - Technical analysis
-    - Trend indicators: SMA, EMA, sRSI, [CMF](https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/chaikin-money-flow-cmf/)
-    - Price diffs / log return
-    - Divergences: ask/bid imbalance, sell/buy imbalance
-    - Volatility
-  - Fundamental analysis
-    - Funds audit results
-  - Ratings
-- Open Data
-  - Company fillings
-  - Macro-economic data
-  - ESG related reports (climate, carbon emission)
-  - Security audit results
-- News
-  - News sentiment
-  - News entities graph
-  - Fundraising
-  - Trends
-- Public social networks
-  - Twitter
-  - reddit
-- Private social networks
-  - Telegram channels
-  - Discord chats
-- Activity
-  - On-chain activity
-  - Project development activity
-  - Vulnerability detection activity
-  - Insiders activity
-  - Cargo/traffic activity
 
 ## Datasets
 
-- [CBOE](http://cfe.cboe.com/market-data/) `#vix` `#futures`
-- [DB Nomics](https://db.nomics.world/) ([R package](https://macro.cepremap.fr/article/2019-10/rdbnomics-tutorial/)) `#data-feed`
-- [Commodity Futures Trading Commission](https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm) `#commodity` `#reports`
-- [U.S. stocks and ETFs](https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs) `#NYSE` `#NASDAQ` `#ETF` `#1-day-candle`
-- [S&P 500 stock data](https://www.kaggle.com/camnugent/sandp500) `#sp-500` `#1-day-candle`
-- [DataHub Economic Data](https://datahub.io/collections/economic-data) `#data-feed` `#macroeconomics`
-- [Bitcoin Historical Data](https://www.kaggle.com/mczielinski/bitcoin-historical-data) `#bitcoin` `#1min-candle`
-- [Complete Historical Cryptocurrency Financial Data](https://www.kaggle.com/philmohun/cryptocurrency-financial-data) `#crypto` `#1-day-candle`
-- [New York Stock Exchange](https://www.kaggle.com/dgawlik/nyse) `#NYSE` `#sp-500` `#1-day-candle` `#fundamentals`
-- [Foreign Exchange Rates 2000-2019](https://www.kaggle.com/brunotly/foreign-exchange-rates-per-dollar-20002019) `#forex` `#1-day-candle`
-- [Binance Full History](https://www.kaggle.com/jorijnsmit/binance-full-history) `#crypto` `#binance` `#1min-candle`
-- [Binance Bitcoin Futures Price](https://www.kaggle.com/billqi/binance-bitcoin-futures-price-10s-intervals) `#crypto` `#binance` `#futures` `#10sec-candle`
-- [Binance real time trades BTCUSDT ETHUSDT](https://www.kaggle.com/rossr61938/binance-real-time-trades-btcusdt-ethusdt) `#crypto` `#binance`
-- [Reddit /r/cryptocurrency](https://www.kaggle.com/nickreinerink/reddit-rcryptocurrency) `#crypto` `#community`
-- [Two Sigma Dataset](https://www.kaggle.com/c/two-sigma-financial-news/data) `#news` `#sentiment` `#competition`
-- [Hacker News Datasets](https://www.kaggle.com/search?q=Hacker+News+in%3Adatasets) `#hackers`
-- [Optiver Realized Volatility Prediction](https://www.kaggle.com/c/optiver-realized-volatility-prediction/data) `#orderbook` `#competition`
-- [Binance Public Data](https://data.binance.vision/) `#spot` `#futures` `#binance` `#crypto`
-  - [Data landing](https://www.binance.com/en/landing/data)
-  - [Github repo](https://github.com/binance/binance-public-data/)
-- [Quora: publicly available market data](https://www.quora.com/What-are-some-publicly-available-market-data-feeds) `#data-list` `#community`
-- [Elliptic Data Set](https://www.kaggle.com/ellipticco/elliptic-data-set) `#bitcoin` `#transaction` `#fraud`
-- [Bitcoin Blockchain Historical Data](https://www.kaggle.com/bigquery/bitcoin-blockchain) `#bitcoin` `#blocks`
-- [Public Blockchain Datasets in BigQuery](https://github.com/blockchain-etl/public-datasets) `#crypto` `#datasets` `#blocks`
-- [Bitcoin Tweets](https://www.kaggle.com/kaushiksuresh147/bitcoin-tweets) `#bitcoin` `#tweets` `#sentiment` `#live`
-- [Bitcoin Tweets - 16M tweets](https://www.kaggle.com/alaix14/bitcoin-tweets-20160101-to-20190329) `#bitcoin` `#tweets` `#sentiment`
-- [Ethereum Blockchain](https://www.kaggle.com/bigquery/ethereum-blockchain) `#ETH` `#blocks` `#live`
-- [400+ crypto currency pairs at 1-minute resolution](https://www.kaggle.com/tencars/392-crypto-currency-pairs-at-minute-resolution) `#crypto` `#1min-candle` `#live`
-- [Core US Fundamentals Data](https://data.nasdaq.com/databases/SF1/data) `#fundamental` `#US`
-- [Currency Foreign Exchange Rates](https://www.kaggle.com/datasets/dhruvildave/currency-exchange-rates) `#forex` `#1-day-candle`
-- [Cybersyn](https://www.cybersyn.com/economic-financial/?product_id=1547) `#economics` `
+:warning: See [Datasets taxonomy](taxonomy.md#datasets-taxonomy) for more information about Groups column.
 
-## Open Data
+| Dataset / Source | Groups | Source type | Description |
+|------------------|--------|-------------|-------------|
+| [U.S. Securities and Exchange Commission](https://www.sec.gov/edgar/searchedgar/companysearch.html) | Fundamental data > Project metadata; Financial sentiment | Government | Public filings database for US companies |
+| [Norges Bank Investment Management](https://www.nbim.no/en/the-fund/investments/#/) | Fundamental data > Project metadata | Institutional | Sovereign wealth fund investment data |
+| [Nasdaq: Core US Fundamentals Data](https://data.nasdaq.com/databases/SF1/data) | Fundamental data > Valuation metrics; Fundamental data > Project metadata | Institutional | US company fundamental and financial data |
+| [DataHub Economic Data](https://datahub.io/collections/economic-data) | Macroeconomic > Indicators; Alternative & supplementary data | Aggregator | Collection of global economic data feeds |
+| [World Bank Open Data](https://data.worldbank.org/) | Macroeconomic > Indicators | Government | Global socioeconomic and development data |
+| [Cybersyn](https://www.cybersyn.com/economic-financial/?product_id=1547) | Macroeconomic > Indicators | Commercial | Economic and financial datasets |
+| [Individual household electric power consumption](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption) | Macroeconomic > Indicators | Research dataset | Household electric power consumption data |
+| [NASA NEX](https://registry.opendata.aws/nasanex/) | Macroeconomic > Indicators | Government | NASA climate and earth science data |
+| [Global Ship Tracking Intelligence](https://www.marinetraffic.com/en/ais/home/centerx:152.9/centery:30.1/zoom:2) | Alternative & supplementary data; Macroeconomic > Market pressure indicators | Commercial | Real-time global ship tracking data |
+| [Sanctions & export controls](https://sanctionsnews.bakermckenzie.com/resources/) | Alternative & supplementary data; Macroeconomic > Market pressure indicators | Commercial | Sanction and export control information |
+| [DB Nomics](https://db.nomics.world/) ([R package](https://macro.cepremap.fr/article/2019-10/rdbnomics-tutorial/)) | Macroeconomic > Indicators; Alternative & supplementary data | Aggregator | Aggregated official economic time series |
+| [Data.Gov](https://www.data.gov/) | Macroeconomic > Indicators; Alternative & supplementary data | Government | US government open data portal |
+| [Commodity Futures Trading Commission](https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm) | Market data > Derivatives markets; Market data > Exchange activity data; Macroeconomic > Market pressure indicators | Government | US commodity futures market reports |
+| [Binance Public Data](https://data.binance.vision/) | Market data > Market microstructure; Market data > Derivatives markets | Exchange | Binance public historic crypto market data |
+| [Public Blockchain Datasets in BigQuery](https://github.com/blockchain-etl/public-datasets) |  | Community | Crypto blockchain data BigQuery public datasets |
+| [CBOE](http://cfe.cboe.com/market-data/) | Market data > Derivatives markets; Market data > Price and volume data | Exchange | CBOE futures and volatility index data |
+| [Quora: publicly available market data](https://www.quora.com/What-are-some-publicly-available-market-data-feeds) | Alternative & supplementary data | Community | Community-curated list of market data sources |
 
-- [U.S. Securities and Exchange Commission](https://www.sec.gov/edgar/searchedgar/companysearch.html) `#SEC` `#report`
-- [Data.Gov](https://www.data.gov/) `#climate` `#healthcare` `#government`
-- [World Bank Open Data](https://data.worldbank.org/) `#macroeconomics` `#world`
-- [Individual household electric power consumption](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption) `#climate`
-- [NASA NEX](https://registry.opendata.aws/nasanex/) `#climate`
-- [Norges Bank Investment Management](https://www.nbim.no/en/the-fund/investments/#/)
-- [Global Ship Tracking Intelligence](https://www.marinetraffic.com/en/ais/home/centerx:152.9/centery:30.1/zoom:2), AIS Marine Traffic `#ship` `#geo`
-- [Sanctions & export controls](https://sanctionsnews.bakermckenzie.com/resources/) `#sanctions` `#index`
+
+Kaggle datasets list (unsuitable to production systems, but Ok for research or education purposes):
+
+- [New York Stock Exchange](https://www.kaggle.com/dgawlik/nyse): US stock exchange end-of-day prices  
+- [U.S. stocks and ETFs](https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs): Price and volume data for US stocks and ETFs  
+- [S&P 500 stock data](https://www.kaggle.com/camnugent/sandp500): S&P 500 daily stock prices  
+- [Binance Full History](https://www.kaggle.com/jorijnsmit/binance-full-history): Binance crypto price and volume full history  
+- [Binance real time trades BTCUSDT ETHUSDT](https://www.kaggle.com/rossr61938/binance-real-time-trades-btcusdt-ethusdt): Binance real-time crypto trade data  
+- [Optiver Realized Volatility Prediction](https://www.kaggle.com/c/optiver-realized-volatility-prediction/data): Order book market microstructure data  
+- [Elliptic Data Set](https://www.kaggle.com/ellipticco/elliptic-data-set): Bitcoin transaction data for fraud detection  
+- [Bitcoin Blockchain Historical Data](https://www.kaggle.com/bigquery/bitcoin-blockchain): Bitcoin blockchain historic data  
+- [Ethereum Blockchain](https://www.kaggle.com/bigquery/ethereum-blockchain): Ethereum blockchain historic data  
+- [Bitcoin Historical Data](https://www.kaggle.com/mczielinski/bitcoin-historical-data): Bitcoin price and volume historic data  
+- [Complete Historical Cryptocurrency Financial Data](https://www.kaggle.com/philmohun/cryptocurrency-financial-data): Comprehensive crypto price and volume data  
+- [400+ crypto currency pairs at 1-minute resolution](https://www.kaggle.com/tencars/392-crypto-currency-pairs-at-minute-resolution): Crypto pairs 1-minute resolution price data  
+- [Currency Foreign Exchange Rates](https://www.kaggle.com/datasets/dhruvildave/currency-exchange-rates): Foreign exchange rates per US dollar  
+- [Reddit /r/cryptocurrency](https://www.kaggle.com/nickreinerink/reddit-rcryptocurrency): Reddit cryptocurrency community sentiment  
+- [Two Sigma Dataset](https://www.kaggle.com/c/two-sigma-financial-news/data): Financial news sentiment dataset  
+- [Bitcoin Tweets](https://www.kaggle.com/kaushiksuresh147/bitcoin-tweets): Bitcoin-related tweets and sentiment  
+- [Bitcoin Tweets - 16M tweets](https://www.kaggle.com/alaix14/bitcoin-tweets-20160101-to-20190329): Bitcoin tweets with sentiment scores  
+- [Hacker News Datasets](https://www.kaggle.com/search?q=Hacker+News+in%3Adatasets): Archive of Hacker News post datasets  
+- [Binance Bitcoin Futures Price](https://www.kaggle.com/billqi/binance-bitcoin-futures-price-10s-intervals): Binance Bitcoin futures price at 10s intervals.
 
 ## Service APIs
 
