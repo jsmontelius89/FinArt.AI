@@ -24,7 +24,7 @@ List for Quantitative analysis and Trading.
 
 | Sector | Datasets | Service & APIs | Use cases | Research papers | Community Activities (deprecated) |
 | -- | -- | -- | -- | -- | -- |
-| ML in __Retail Banking__ | [:white_check_mark:](banking/datasets.md) | [:white_check_mark:](banking/cases.md) | | | [Hackatons](hackathons.md), [Conferences](banking/conferences.md) |
+| ML in __Retail Banking__ | [:white_check_mark:](banking/datasets.md) | [:white_check_mark:](banking/cases.md) | | | [Hackathons](hackathons.md), [Conferences](banking/conferences.md) |
 |  ML cases in __Insurance__ | | | [:white_check_mark:](insurance/cases.md) | | |
 
 ## Hubs
