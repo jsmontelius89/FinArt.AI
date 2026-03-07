@@ -27,18 +27,21 @@ Packages:
 - [PyPortfolioOpt](https://pyportfolioopt.readthedocs.io/en/latest/)
 - [Quantopian Pyfolio](https://github.com/quantopian/pyfolio) (archived)
 - [SciPy](https://towardsdatascience.com/portfolio-optimization-with-scipy-aa9c02e6b937) `#core`
-- [ZipLine reloaded](https://github.com/stefan-jansen/zipline-reloaded): `#backtesting` and `#trading`
+- [ZipLine reloaded](https://zipline.ml4trading.io/index.html): `#backtesting` and `#trading`
 - [Riskfolio Lib](https://riskfolio-lib.readthedocs.io/en/latest/)
 - [Empyrial](https://empyrial.gitbook.io/empyrial/)
 - [Okama](https://okama.readthedocs.io/en/master/index.html)
 - [Qlib](https://github.com/microsoft/qlib)
 - [FinQuant](https://github.com/fmilthaler/FinQuant)
-- [Optopsy](https://github.com/michaelchu/optopsy): `#backtesting` and statistics library for option strategies (archived)
+- [Optopsy](https://github.com/michaelchu/optopsy): `#backtesting` and statistics library for option strategies
 - [VectorBT](https://vectorbt.pro/features/overview/): `#backtesting` and technical indicators
 - [FinanceDatabase](https://github.com/JerBouma/FinanceDatabase): 300K+ symbols with Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Forex `#market-data`
 - [Trading Strategy](https://github.com/tradingstrategy-ai/trading-strategy/): DeFi prices loader `#market-data` `#DeFi`
 - [datamule-python](https://github.com/john-friedman/datamule-python): SEC data via datamule endpoints `#fundamentials` `#SEC`
 - [CCXT (CryptoCurrency eXchange Trading Library)](https://github.com/ccxt/ccxt?tab=readme-ov-file#python): integration and trading with CEXs `#market-data` `#CeFi`
+- [CVXPortfolio](https://www.cvxportfolio.com/en/stable/index.html): portfolio optimization framework (archived)
+- [PyMC3](https://www.pymc.io/welcome.html): probabilistic programming framework for `#bayesian` portfolio optimization `#monte-carlo` `#mcmc`
+- [Backtesting.py](https://kernc.github.io/backtesting.py/): backtesting framework for trading strategies `#backtesting`
 
 Repositories:
 
@@ -93,9 +96,10 @@ List of stuff for analysis, forecasting,  and outlier detection
 - [forecast](https://cran.r-project.org/web/packages/forecast/forecast.pdf) `#R`
 - [Microsoft Finance Time Series Forecasting Framework](https://github.com/microsoft/finnts) `#R`
 - [PyOD: Python Outlier Detection](https://github.com/yzhao062/pyod) `#python`
-- [Darts: user-friendly forecasting and anomaly detection](https://unit8co.github.io/darts/)
+- [Darts: user-friendly forecasting and anomaly detection](https://unit8co.github.io/darts/) `#python` `#forecasting` `#regression` `#deep-learning`
 - [Merlion](https://github.com/salesforce/Merlion) `#python`
 - [Time-LLM: Time Series Forecasting by Reprogramming LLM](https://paperswithcode.com/paper/time-llm-time-series-forecasting-by) `#python` `#LLM`
+- [sktime](https://www.sktime.net/en/stable/index.html) `#python` `#forecasting` `#classification` `#regression` `#clustering`
 
 ### Review
 
