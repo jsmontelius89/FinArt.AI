@@ -10,7 +10,7 @@ _List of datasets and service APIs with __Financial Markets__ data._
   - [OSINT](#osint)
 - [News Aggregators](#news-aggregators)
   - [Fundraising](#fundraising)
-  - [LLMs](#llms)h
+  - [LLMs](#llms)
 
 
 ## Datasets
